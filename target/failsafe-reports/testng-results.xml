@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="13" passed="13">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="103761" started-at="2016-07-20T18:46:16Z" finished-at="2016-07-20T18:47:59Z">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="103761" started-at="2016-07-20T18:46:16Z" finished-at="2016-07-20T18:47:59Z">
+      <class name="com.google.tests.WaitTestsWD">
+        <test-method status="PASS" signature="fluentWaitIgnoringACollectionOfExceptions()[pri:0, instance:com.google.tests.WaitTestsWD@7a1f0683]" name="fluentWaitIgnoringACollectionOfExceptions" duration-ms="11989" started-at="2016-07-20T15:47:29Z" finished-at="2016-07-20T15:47:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fluentWaitIgnoringACollectionOfExceptions -->
+        <test-method status="PASS" signature="clearCookies()[pri:0, instance:com.google.tests.WaitTestsWD@7a1f0683]" name="clearCookies" is-config="true" duration-ms="22" started-at="2016-07-20T15:47:41Z" finished-at="2016-07-20T15:47:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearCookies -->
+        <test-method status="PASS" signature="fluentWaitIgnoringAListOfExceptions()[pri:0, instance:com.google.tests.WaitTestsWD@7a1f0683]" name="fluentWaitIgnoringAListOfExceptions" duration-ms="2313" started-at="2016-07-20T15:47:41Z" finished-at="2016-07-20T15:47:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fluentWaitIgnoringAListOfExceptions -->
+        <test-method status="PASS" signature="clearCookies()[pri:0, instance:com.google.tests.WaitTestsWD@7a1f0683]" name="clearCookies" is-config="true" duration-ms="15" started-at="2016-07-20T15:47:44Z" finished-at="2016-07-20T15:47:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearCookies -->
+        <test-method status="PASS" signature="fluentWaitIgnoringMultipleExceptions()[pri:0, instance:com.google.tests.WaitTestsWD@7a1f0683]" name="fluentWaitIgnoringMultipleExceptions" duration-ms="2104" started-at="2016-07-20T15:47:44Z" finished-at="2016-07-20T15:47:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fluentWaitIgnoringMultipleExceptions -->
+        <test-method status="PASS" signature="clearCookies()[pri:0, instance:com.google.tests.WaitTestsWD@7a1f0683]" name="clearCookies" is-config="true" duration-ms="20" started-at="2016-07-20T15:47:46Z" finished-at="2016-07-20T15:47:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearCookies -->
+        <test-method status="PASS" signature="fluentWaitIgnoringSingleException()[pri:0, instance:com.google.tests.WaitTestsWD@7a1f0683]" name="fluentWaitIgnoringSingleException" duration-ms="2250" started-at="2016-07-20T15:47:46Z" finished-at="2016-07-20T15:47:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fluentWaitIgnoringSingleException -->
+        <test-method status="PASS" signature="clearCookies()[pri:0, instance:com.google.tests.WaitTestsWD@7a1f0683]" name="clearCookies" is-config="true" duration-ms="19" started-at="2016-07-20T15:47:48Z" finished-at="2016-07-20T15:47:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearCookies -->
+        <test-method status="PASS" signature="loadAngularJSSite()[pri:0, instance:com.google.tests.WaitTestsWD@7a1f0683]" name="loadAngularJSSite" duration-ms="2951" started-at="2016-07-20T15:47:48Z" finished-at="2016-07-20T15:47:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadAngularJSSite -->
+        <test-method status="PASS" signature="clearCookies()[pri:0, instance:com.google.tests.WaitTestsWD@7a1f0683]" name="clearCookies" is-config="true" duration-ms="38" started-at="2016-07-20T15:47:51Z" finished-at="2016-07-20T15:47:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearCookies -->
+        <test-method status="PASS" signature="loadJquerySite()[pri:0, instance:com.google.tests.WaitTestsWD@7a1f0683]" name="loadJquerySite" duration-ms="8167" started-at="2016-07-20T15:47:51Z" finished-at="2016-07-20T15:47:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadJquerySite -->
+        <test-method status="PASS" signature="clearCookies()[pri:0, instance:com.google.tests.WaitTestsWD@7a1f0683]" name="clearCookies" is-config="true" duration-ms="21" started-at="2016-07-20T15:47:59Z" finished-at="2016-07-20T15:47:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearCookies -->
+      </class> <!-- com.google.tests.WaitTestsWD -->
+      <class name="com.google.tests.NewsTestWD">
+        <test-method status="PASS" signature="instantiateDriverObject()[pri:0, instance:com.google.tests.NewsTestWD@52e21a17]" name="instantiateDriverObject" is-config="true" duration-ms="11" started-at="2016-07-20T15:46:16Z" finished-at="2016-07-20T15:46:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- instantiateDriverObject -->
+        <test-method status="PASS" signature="goToTheNewsPage()[pri:0, instance:com.google.tests.NewsTestWD@52e21a17]" name="goToTheNewsPage" duration-ms="51285" started-at="2016-07-20T15:46:16Z" finished-at="2016-07-20T15:47:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToTheNewsPage -->
+        <test-method status="PASS" signature="clearCookies()[pri:0, instance:com.google.tests.NewsTestWD@52e21a17]" name="clearCookies" is-config="true" duration-ms="19" started-at="2016-07-20T15:47:07Z" finished-at="2016-07-20T15:47:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearCookies -->
+        <test-method status="PASS" signature="googleCampeonExample()[pri:0, instance:com.google.tests.NewsTestWD@52e21a17]" name="googleCampeonExample" duration-ms="6205" started-at="2016-07-20T15:47:07Z" finished-at="2016-07-20T15:47:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleCampeonExample -->
+        <test-method status="PASS" signature="clearCookies()[pri:0, instance:com.google.tests.NewsTestWD@52e21a17]" name="clearCookies" is-config="true" duration-ms="15" started-at="2016-07-20T15:47:13Z" finished-at="2016-07-20T15:47:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearCookies -->
+        <test-method status="PASS" signature="googleCraftBeerExample()[pri:0, instance:com.google.tests.NewsTestWD@52e21a17]" name="googleCraftBeerExample" duration-ms="2699" started-at="2016-07-20T15:47:13Z" finished-at="2016-07-20T15:47:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleCraftBeerExample -->
+        <test-method status="PASS" signature="clearCookies()[pri:0, instance:com.google.tests.NewsTestWD@52e21a17]" name="clearCookies" is-config="true" duration-ms="17" started-at="2016-07-20T15:47:16Z" finished-at="2016-07-20T15:47:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearCookies -->
+        <test-method status="PASS" signature="googleIndianFoodExample()[pri:0, instance:com.google.tests.NewsTestWD@52e21a17]" name="googleIndianFoodExample" duration-ms="2876" started-at="2016-07-20T15:47:16Z" finished-at="2016-07-20T15:47:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleIndianFoodExample -->
+        <test-method status="PASS" signature="clearCookies()[pri:0, instance:com.google.tests.NewsTestWD@52e21a17]" name="clearCookies" is-config="true" duration-ms="19" started-at="2016-07-20T15:47:19Z" finished-at="2016-07-20T15:47:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearCookies -->
+        <test-method status="PASS" signature="googlePenarolExample()[pri:0, instance:com.google.tests.NewsTestWD@52e21a17]" name="googlePenarolExample" duration-ms="3772" started-at="2016-07-20T15:47:19Z" finished-at="2016-07-20T15:47:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googlePenarolExample -->
+        <test-method status="PASS" signature="clearCookies()[pri:0, instance:com.google.tests.NewsTestWD@52e21a17]" name="clearCookies" is-config="true" duration-ms="15" started-at="2016-07-20T15:47:23Z" finished-at="2016-07-20T15:47:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearCookies -->
+        <test-method status="PASS" signature="googlePuntaDelDiabloExample()[pri:0, instance:com.google.tests.NewsTestWD@52e21a17]" name="googlePuntaDelDiabloExample" duration-ms="3331" started-at="2016-07-20T15:47:23Z" finished-at="2016-07-20T15:47:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googlePuntaDelDiabloExample -->
+        <test-method status="PASS" signature="clearCookies()[pri:0, instance:com.google.tests.NewsTestWD@52e21a17]" name="clearCookies" is-config="true" duration-ms="25" started-at="2016-07-20T15:47:26Z" finished-at="2016-07-20T15:47:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearCookies -->
+        <test-method status="PASS" signature="googlePuntaDelEsteExample()[pri:0, instance:com.google.tests.NewsTestWD@52e21a17]" name="googlePuntaDelEsteExample" duration-ms="3521" started-at="2016-07-20T15:47:26Z" finished-at="2016-07-20T15:47:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googlePuntaDelEsteExample -->
+        <test-method status="PASS" signature="clearCookies()[pri:0, instance:com.google.tests.NewsTestWD@52e21a17]" name="clearCookies" is-config="true" duration-ms="19" started-at="2016-07-20T15:47:29Z" finished-at="2016-07-20T15:47:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearCookies -->
+        <test-method status="PASS" signature="closeDriverObjects()[pri:0, instance:com.google.tests.NewsTestWD@52e21a17]" name="closeDriverObjects" is-config="true" duration-ms="2427" started-at="2016-07-20T15:48:00Z" finished-at="2016-07-20T15:48:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriverObjects -->
+      </class> <!-- com.google.tests.NewsTestWD -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

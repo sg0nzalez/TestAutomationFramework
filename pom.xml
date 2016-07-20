@@ -75,7 +75,7 @@
                                 <webdriver.opera.driver>${webdriver.opera.driver}</webdriver.opera.driver>
                             </systemProperties>
                             <includes>
-                                <include>**/*Test*.java</include>
+                                <include>**/*WD.java</include>
                             </includes>
                         </configuration>
                         <executions>

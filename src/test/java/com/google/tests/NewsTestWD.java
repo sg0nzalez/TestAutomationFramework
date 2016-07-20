@@ -22,7 +22,7 @@ public class NewsTestWD extends DriverFactory {
 
     private void googleExampleThatSearchesFor(final String searchString) throws Exception {
 
-        WebDriver driver = getDriver();
+        WebDriver driver = DriverFactory.getDriver();
 
         driver.get("http://www.google.com");
 
@@ -78,7 +78,7 @@ public class NewsTestWD extends DriverFactory {
     @Test
     public void goToTheNewsPage() throws Exception {
 
-        WebDriver driver = getDriver();
+        WebDriver driver = DriverFactory.getDriver();
 
         driver.get("http://www.velocitypartners.net/");
 
