@@ -48,5 +48,4 @@ Temporary Items
 .idea/*
 *.iml
 *.log
-*/target/**
-resources/
+target/
