@@ -48,7 +48,5 @@ Temporary Items
 .idea/*
 *.iml
 *.log
-target/*
-src/test/resources/selenium_standalone_binaries/windows/googlechrome/64bit/chromedriver.exe
-src/test/resources/selenium_standalone_binaries/windows/internetexplorer/64bit/IEDriverServer.exe
-src/test/resources/selenium_standalone_binaries/windows/operachromium/64bit/operadriver.exe
+*/target/**
+resources/
