@@ -1,69 +1,77 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="6" passed="6">
+<testng-results skipped="0" failed="0" total="7" passed="7">
   <reporter-output>
   </reporter-output>
-  <suite name="Surefire suite" duration-ms="32226" started-at="2016-07-19T12:32:24Z" finished-at="2016-07-19T12:32:56Z">
+  <suite name="Surefire suite" duration-ms="48926" started-at="2016-07-20T03:05:56Z" finished-at="2016-07-20T03:06:45Z">
     <groups>
     </groups>
-    <test name="Surefire test" duration-ms="32226" started-at="2016-07-19T12:32:24Z" finished-at="2016-07-19T12:32:56Z">
-      <class name="com.google.BasicTestWD">
-        <test-method status="PASS" signature="instantiateDriverObject()[pri:0, instance:com.google.BasicTestWD@3f44d11e]" name="instantiateDriverObject" is-config="true" duration-ms="14" started-at="2016-07-19T09:32:24Z" finished-at="2016-07-19T09:32:24Z">
+    <test name="Surefire test" duration-ms="48926" started-at="2016-07-20T03:05:56Z" finished-at="2016-07-20T03:06:45Z">
+      <class name="com.google.tests.NewsTestWD">
+        <test-method status="PASS" signature="instantiateDriverObject()[pri:0, instance:com.google.tests.NewsTestWD@aa85638]" name="instantiateDriverObject" is-config="true" duration-ms="14" started-at="2016-07-20T00:05:56Z" finished-at="2016-07-20T00:05:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- instantiateDriverObject -->
-        <test-method status="PASS" signature="googleCampeonExample()[pri:0, instance:com.google.BasicTestWD@3f44d11e]" name="googleCampeonExample" duration-ms="19704" started-at="2016-07-19T09:32:24Z" finished-at="2016-07-19T09:32:43Z">
+        <test-method status="PASS" signature="goToTheNewsPage()[pri:0, instance:com.google.tests.NewsTestWD@aa85638]" name="goToTheNewsPage" duration-ms="28818" started-at="2016-07-20T00:05:56Z" finished-at="2016-07-20T00:06:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToTheNewsPage -->
+        <test-method status="PASS" signature="clearCookies()[pri:0, instance:com.google.tests.NewsTestWD@aa85638]" name="clearCookies" is-config="true" duration-ms="18" started-at="2016-07-20T00:06:25Z" finished-at="2016-07-20T00:06:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearCookies -->
+        <test-method status="PASS" signature="googleCampeonExample()[pri:0, instance:com.google.tests.NewsTestWD@aa85638]" name="googleCampeonExample" duration-ms="5770" started-at="2016-07-20T00:06:25Z" finished-at="2016-07-20T00:06:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- googleCampeonExample -->
-        <test-method status="PASS" signature="clearCookies()[pri:0, instance:com.google.BasicTestWD@3f44d11e]" name="clearCookies" is-config="true" duration-ms="27" started-at="2016-07-19T09:32:43Z" finished-at="2016-07-19T09:32:43Z">
+        <test-method status="PASS" signature="clearCookies()[pri:0, instance:com.google.tests.NewsTestWD@aa85638]" name="clearCookies" is-config="true" duration-ms="17" started-at="2016-07-20T00:06:31Z" finished-at="2016-07-20T00:06:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clearCookies -->
-        <test-method status="PASS" signature="googleCraftBeerExample()[pri:0, instance:com.google.BasicTestWD@3f44d11e]" name="googleCraftBeerExample" duration-ms="3691" started-at="2016-07-19T09:32:43Z" finished-at="2016-07-19T09:32:47Z">
+        <test-method status="PASS" signature="googleCraftBeerExample()[pri:0, instance:com.google.tests.NewsTestWD@aa85638]" name="googleCraftBeerExample" duration-ms="2905" started-at="2016-07-20T00:06:31Z" finished-at="2016-07-20T00:06:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- googleCraftBeerExample -->
-        <test-method status="PASS" signature="clearCookies()[pri:0, instance:com.google.BasicTestWD@3f44d11e]" name="clearCookies" is-config="true" duration-ms="6" started-at="2016-07-19T09:32:47Z" finished-at="2016-07-19T09:32:47Z">
+        <test-method status="PASS" signature="clearCookies()[pri:0, instance:com.google.tests.NewsTestWD@aa85638]" name="clearCookies" is-config="true" duration-ms="13" started-at="2016-07-20T00:06:34Z" finished-at="2016-07-20T00:06:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clearCookies -->
-        <test-method status="PASS" signature="googleIndianFoodExample()[pri:0, instance:com.google.BasicTestWD@3f44d11e]" name="googleIndianFoodExample" duration-ms="1925" started-at="2016-07-19T09:32:47Z" finished-at="2016-07-19T09:32:49Z">
+        <test-method status="PASS" signature="googleIndianFoodExample()[pri:0, instance:com.google.tests.NewsTestWD@aa85638]" name="googleIndianFoodExample" duration-ms="2296" started-at="2016-07-20T00:06:34Z" finished-at="2016-07-20T00:06:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- googleIndianFoodExample -->
-        <test-method status="PASS" signature="clearCookies()[pri:0, instance:com.google.BasicTestWD@3f44d11e]" name="clearCookies" is-config="true" duration-ms="5" started-at="2016-07-19T09:32:49Z" finished-at="2016-07-19T09:32:49Z">
+        <test-method status="PASS" signature="clearCookies()[pri:0, instance:com.google.tests.NewsTestWD@aa85638]" name="clearCookies" is-config="true" duration-ms="14" started-at="2016-07-20T00:06:36Z" finished-at="2016-07-20T00:06:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clearCookies -->
-        <test-method status="PASS" signature="googlePenarolExample()[pri:0, instance:com.google.BasicTestWD@3f44d11e]" name="googlePenarolExample" duration-ms="2703" started-at="2016-07-19T09:32:49Z" finished-at="2016-07-19T09:32:52Z">
+        <test-method status="PASS" signature="googlePenarolExample()[pri:0, instance:com.google.tests.NewsTestWD@aa85638]" name="googlePenarolExample" duration-ms="2779" started-at="2016-07-20T00:06:36Z" finished-at="2016-07-20T00:06:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- googlePenarolExample -->
-        <test-method status="PASS" signature="clearCookies()[pri:0, instance:com.google.BasicTestWD@3f44d11e]" name="clearCookies" is-config="true" duration-ms="5" started-at="2016-07-19T09:32:52Z" finished-at="2016-07-19T09:32:52Z">
+        <test-method status="PASS" signature="clearCookies()[pri:0, instance:com.google.tests.NewsTestWD@aa85638]" name="clearCookies" is-config="true" duration-ms="21" started-at="2016-07-20T00:06:39Z" finished-at="2016-07-20T00:06:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clearCookies -->
-        <test-method status="PASS" signature="googlePuntaDelDiabloExample()[pri:0, instance:com.google.BasicTestWD@3f44d11e]" name="googlePuntaDelDiabloExample" duration-ms="2396" started-at="2016-07-19T09:32:52Z" finished-at="2016-07-19T09:32:54Z">
+        <test-method status="PASS" signature="googlePuntaDelDiabloExample()[pri:0, instance:com.google.tests.NewsTestWD@aa85638]" name="googlePuntaDelDiabloExample" duration-ms="2920" started-at="2016-07-20T00:06:39Z" finished-at="2016-07-20T00:06:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- googlePuntaDelDiabloExample -->
-        <test-method status="PASS" signature="clearCookies()[pri:0, instance:com.google.BasicTestWD@3f44d11e]" name="clearCookies" is-config="true" duration-ms="5" started-at="2016-07-19T09:32:54Z" finished-at="2016-07-19T09:32:54Z">
+        <test-method status="PASS" signature="clearCookies()[pri:0, instance:com.google.tests.NewsTestWD@aa85638]" name="clearCookies" is-config="true" duration-ms="15" started-at="2016-07-20T00:06:42Z" finished-at="2016-07-20T00:06:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clearCookies -->
-        <test-method status="PASS" signature="googlePuntaDelEsteExample()[pri:0, instance:com.google.BasicTestWD@3f44d11e]" name="googlePuntaDelEsteExample" duration-ms="1729" started-at="2016-07-19T09:32:54Z" finished-at="2016-07-19T09:32:56Z">
+        <test-method status="PASS" signature="googlePuntaDelEsteExample()[pri:0, instance:com.google.tests.NewsTestWD@aa85638]" name="googlePuntaDelEsteExample" duration-ms="3300" started-at="2016-07-20T00:06:42Z" finished-at="2016-07-20T00:06:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- googlePuntaDelEsteExample -->
-        <test-method status="PASS" signature="clearCookies()[pri:0, instance:com.google.BasicTestWD@3f44d11e]" name="clearCookies" is-config="true" duration-ms="5" started-at="2016-07-19T09:32:56Z" finished-at="2016-07-19T09:32:56Z">
+        <test-method status="PASS" signature="clearCookies()[pri:0, instance:com.google.tests.NewsTestWD@aa85638]" name="clearCookies" is-config="true" duration-ms="17" started-at="2016-07-20T00:06:45Z" finished-at="2016-07-20T00:06:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clearCookies -->
-        <test-method status="PASS" signature="closeDriverObjects()[pri:0, instance:com.google.BasicTestWD@3f44d11e]" name="closeDriverObjects" is-config="true" duration-ms="1169" started-at="2016-07-19T09:32:56Z" finished-at="2016-07-19T09:32:57Z">
+        <test-method status="PASS" signature="closeDriverObjects()[pri:0, instance:com.google.tests.NewsTestWD@aa85638]" name="closeDriverObjects" is-config="true" duration-ms="1674" started-at="2016-07-20T00:06:45Z" finished-at="2016-07-20T00:06:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeDriverObjects -->
-      </class> <!-- com.google.BasicTestWD -->
+      </class> <!-- com.google.tests.NewsTestWD -->
     </test> <!-- Surefire test -->
   </suite> <!-- Surefire suite -->
 </testng-results>

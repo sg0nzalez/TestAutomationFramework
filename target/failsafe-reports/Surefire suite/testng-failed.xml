@@ -3,7 +3,7 @@
 <suite thread-count="1" verbose="0" name="Failed suite [Surefire suite]" parallel="methods">
   <test name="Surefire test">
     <classes>
-      <class name="com.google.BasicTestWD"/>
+      <class name="com.google.tests.NewsTestWD"/>
     </classes>
   </test> <!-- Surefire test -->
 </suite> <!-- Failed suite [Surefire suite] -->
