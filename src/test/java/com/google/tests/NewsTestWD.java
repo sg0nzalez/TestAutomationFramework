@@ -4,6 +4,7 @@ import com.google.DriverFactory;
 import com.google.page_objects.HomePage;
 import com.google.page_objects.NewsPage;
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedCondition;
@@ -81,6 +82,10 @@ public class NewsTestWD extends DriverFactory {
         WebDriver driver = DriverFactory.getDriver();
 
         driver.get("http://www.velocitypartners.net/");
+
+        System.out.println("Page title is: " + driver.getTitle());
+        
+        driver.manage().window().maximize();
 
         WebElement newsLink = driver.findElement(HomePage.newsLinkLocator);
 
