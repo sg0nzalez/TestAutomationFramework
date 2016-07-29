@@ -80,7 +80,5 @@ public class WebDriverThread {
         } else {
             webdriver = selectedDriverType.getWebDriverObject(desiredCapabilities);
         }
-
-        webdriver = selectedDriverType.getWebDriverObject(desiredCapabilities);
     }
 }
